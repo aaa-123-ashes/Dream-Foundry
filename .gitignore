@@ -1,0 +1,26 @@
+# Minecraft 整合包 忽略规则
+# 模组文件夹不上传
+mods/
+# 世界存档，体积大无需备份
+saves/
+# 游戏日志、崩溃报告
+logs/
+crash-reports/
+# 启动器缓存、版本核心
+versions/
+libraries/
+cache/
+# 启动器配置
+launcher_profiles.json
+# 游戏本地画面设置（个人分辨率、亮度，不需要提交）
+options.txt
+optionsshaders.txt
+# 各类日志压缩包
+*.log
+*.gz
+# 光影缓存
+shaderpacks/cache/
+resourcepacks/*.zip
+# HMCL等启动器文件
+hmcl.json
+executable.jar
