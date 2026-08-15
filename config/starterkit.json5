@@ -12,5 +12,12 @@
 	// Whether an announcement should be broadcasted to the server whenever a new player makes a kit choice. 'randomizeMultipleKitsToggle' must be disabled, and there must be at least 2 starter kits available.
 	"announcePlayerKitChoiceInDedicatedServer": true,
 	// Whether the starter kit should be re-set after the '/ftbteamislands create' command from FTB Team Islands. Does nothing when it's not installed.
-	"enableFTBIslandCreateCompatibility": true
+	"enableFTBIslandCreateCompatibility": true,
+	"runCommandsOnWorldCreate": [
+		"title @a title {\"text\":\"造梦工厂\",\"color\":\"cyan\",\"bold\":true}",
+		"title @a subtitle {\"text\":\"创造无限工业可能\",\"color\":\"white\"}",
+		"tellraw @a {\"text\":\"====================\\n机械工业创造生存\\n====================\",\"color\":\"#4dd2ff\",\"bold\":true}",
+		"tellraw @a {\"text\":\"打造流水线工厂，从零构筑工业国度\",\"color\":\"#cccccc\"}"
+	]
+
 }
