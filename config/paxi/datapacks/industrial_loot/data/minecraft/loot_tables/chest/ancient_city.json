@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {"min":4,"max":8},
+      "entries": [
+        {"type":"minecraft:item","name":"create:creative_blueprint","weight":2},
+        {"type":"minecraft:item","name":"create:super_glue","weight":14},
+        {"type":"minecraft:item","name":"create:encased_fan","weight":12},
+        {"type":"minecraft:item","name":"create:deployer","weight":10},
+        {"type":"minecraft:item","name":"create:brass_casing","weight":22},
+        {"type":"minecraft:item","name":"minecraft:echo_shard","weight":18},
+        {"type":"minecraft:item","name":"create:industrial_iron_block","weight":6}
+      ]
+    }
+  ]
+}

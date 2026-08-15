@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "min": 2,
+        "max": 5
+      },
+      "entries": [
+        {"type": "minecraft:item", "name": "create:cogwheel", "weight": 20},
+        {"type": "minecraft:item", "name": "create:large_cogwheel", "weight": 15},
+        {"type": "minecraft:item", "name": "create:shaft", "weight": 25},
+        {"type": "minecraft:item", "name": "create:belt_connector", "weight": 18},
+        {"type": "minecraft:item", "name": "minecraft:copper_ingot", "weight": 30},
+        {"type": "minecraft:item", "name": "create:zinc_ingot", "weight": 22},
+        {"type": "minecraft:item", "name": "minecraft:iron_ingot", "weight": 28},
+        {"type": "minecraft:item", "name": "create:wrench", "weight": 4, "functions": [{"function": "minecraft:set_damage", "damage": 0.7}]},
+        {"type": "minecraft:item", "name": "minecraft:torch", "weight": 35}
+      ]
+    }
+  ]
+}

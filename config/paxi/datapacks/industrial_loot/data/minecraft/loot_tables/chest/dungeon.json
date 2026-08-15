@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {"min":3,"max":6},
+      "entries": [
+        {"type":"minecraft:item","name":"create:gearbox","weight":16},
+        {"type":"minecraft:item","name":"create:clutch","weight":12},
+        {"type":"minecraft:item","name":"create:rotation_speed_controller","weight":8},
+        {"type":"minecraft:item","name":"create:brass_ingot","weight":20},
+        {"type":"minecraft:item","name":"minecraft:gold_ingot","weight":22},
+        {"type":"minecraft:item","name":"create:precision_mechanism","weight":6},
+        {"type":"minecraft:item","name":"minecraft:bread","weight":30}
+      ]
+    }
+  ]
+}
